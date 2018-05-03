@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+		
+		<!-- rgb(85, 122, 199) azul ITF -->
+		<!-- rgb(247, 212, 60) amarillo ITF -->
+
+		<!--Import Google Icon Font-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!-- Compiled and minified CSS -->
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+		
+		<!-- Compiled and minified JavaScript <--></-->
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    	<style>
+    		@media(max-width: 420px) {
+
+	    		.brand-logo {
+	    			font-size: 1.5rem !important;
+	    		}
+    		}
+    		.carousel {
+    			height: 250px;
+    		}
+    		.collapsible-body {
+    			background-color: #fffde7;
+    		}
+    	</style>
+
+	</head>
+
+	<body>
+		<nav class="nav-extended blue accent-3">
+			<div class="nav-wrapper">
+				<a href="#" class="brand-logo">Inspirá tu futuro</a>
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="sass.html">Opción 1</a></li>
+					<li><a href="badges.html">Opción 2</a></li>
+					<li><a href="collapsible.html">Opción 3</a></li>
+				</ul>
+			</div>
+			<div class="nav-content">
+				<ul class="tabs tabs-transparent">
+					<li class="tab"><a class="active" href="#test0">¿Quiénes somos?</a></li>
+					<li class="tab"><a href="#test1">Alfabetización digital</a></li>
+					<li class="tab"><a href="#test2">Programación de Apps 1</a></li>
+					<li class="tab"><a href="#test3">Programación de Apps 2</a></li>
+					<li class="tab"><a href="#test4">Repará tu celular</a></li>
+					<li class="tab"><a href="#test5">Programación para chicos</a></li>
+				</ul>
+			</div>
+		</nav>
+		
+		<ul class="sidenav" id="mobile-demo">
+			<li><a href="sass.html">Opción 1</a></li>
+			<li><a href="badges.html">Opción 2</a></li>
+			<li><a href="collapsible.html">Opción 3</a></li>
+		</ul>
+		<div id="test0" class="col s12">
+			<div class="row">
+				<div class="col s12 m6">
+					<div class="carousel">
+						<a class="carousel-item" href="#one!"><img src="img/carr1.jpg"></a>
+						<a class="carousel-item" href="#two!"><img src="img/carr2.jpg"></a>
+						<a class="carousel-item" href="#three!"><img src="img/carr3.jpg"></a>
+						<a class="carousel-item" href="#four!"><img src="img/carr4.jpg"></a>
+						<a class="carousel-item" href="#five!"><img src="img/carr5.jpg"></a>
+					</div>
+					<div class="card yellow lighten-2 darken-1">
+						<div class="card-content black-text">
+							<span class="card-title"><b>Inspirá tu Futuro</b></span>
+							<p>Es una iniciativa del Ministerio de Educación de la Ciudad de Buenos Aires que tiene por objetivo disminuir la brecha digital y brindar herramientas para el uso de las nuevas tecnologías.</p>
+							<p>Inspirá tu Futuro es un espacio abierto a la comunidad, donde los vecinos pueden aprender a programar y reparar celulares guiados por un mentor-programador.</p>
+						</div>
+						<div class="card-action yellow darken-3">
+							<a class="black-text" href="https://docs.google.com/forms/d/1hQnKZkGeDNxbg9x_1_X5W7Fg7gBQi9r9dKVJbA7O--s/viewform?edit_requested=true">¡Anotate!</a>
+							<a class="black-text" href="#">Envianos tus consultas</a>
+						</div>
+					</div>
+					<div class="card yellow lighten-2 darken-1">
+						<div class="card-content black-text">
+							<span class="card-title"><b>Nuestros horarios:</b></span>
+							<ul class="collapsible">
+								<li>
+									<div class="collapsible-header">
+										<i class="material-icons">desktop_windows</i>
+										Alfabetización digtal
+										<span class="new badge" data-badge-caption="Horarios">2</span>
+									</div>
+									<div class="collapsible-body">
+										<p>Opción 1: Sábados de 10:00 a 12:30.</p>
+										<p>Opción 2: Sábados de 13:00 a 15:30.</p>
+									</div>
+								</li>
+								<li>
+									<div class="collapsible-header">
+										<i class="material-icons">perm_device_information</i>
+										Programación de Apps 1
+										<span class="new badge" data-badge-caption="Horario">1</span>
+									</div>
+									<div class="collapsible-body">
+										<p>Sábados de 10:00 a 12:30.</p>
+									</div>
+								</li>
+								<li>
+									<div class="collapsible-header">
+										<i class="material-icons">phone_android</i>
+										Programación de Apps 2
+										<span class="new badge" data-badge-caption="Horario">1</span>
+									</div>
+									<div class="collapsible-body">										
+										<p>Sábados de 13:00 a 15:30.</p>
+									</div>
+								</li>
+								<li>
+									<div class="collapsible-header">
+										<i class="material-icons">healing</i>
+										Repará tu celular
+										<span class="new badge" data-badge-caption="Horario">1</span>
+									</div>
+									<div class="collapsible-body">										
+										<p>Martes y Jueves de 17:30 a 19:00.</p>
+									</div>
+								</li>
+								<li>
+									<div class="collapsible-header">
+										<i class="material-icons">insert_emoticon</i>
+										Programación para chicos
+										<span class="new badge" data-badge-caption="Horario">1</span>
+									</div>
+									<div class="collapsible-body">										
+										<p>Lunes y Miércoles de 17:30 a 19:00.</p>
+									</div>
+								</li>
+							</ul>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="test1" class="col s12">
+			<div class="row">
+				<div class="col s12 m6">
+					<div class="card yellow lighten-2 darken-1">
+						<div class="card-content black-text">
+							<span class="card-title"><b>Alfabetización digital</b></span>
+							<p>¿No tenés computadora?¿No sabés usar la computadora?¿Nunca tocaste una computadora?.</p>
+							<p>Vení que te enseñamos a utilizarla, ¡arrancando fácil y desde cero!.</p>
+						</div>
+						<div class="card-action yellow darken-3">
+							<a class="black-text" href="https://docs.google.com/forms/d/1hQnKZkGeDNxbg9x_1_X5W7Fg7gBQi9r9dKVJbA7O--s/viewform?edit_requested=true">¡Anotate!</a>
+							<a class="black-text" href="#">Envianos tus consultas</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="test2" class="col s12">
+			<div class="row">
+				<div class="col s12 m6">
+					<div class="card yellow lighten-2 darken-1">
+						<div class="card-content black-text">
+							<span class="card-title"><b>Programación de Apps 1</b></span>
+							<p>Sumergite en el mundo de las aplicaciones móviles para Android de una manera sencilla y divertida.</p>
+							<p>¡Aprendé a hacer tus propias aplicaciones para tu celular!</p>
+						</div>
+						<div class="card-action yellow darken-3">
+							<a class="black-text" href="https://docs.google.com/forms/d/1hQnKZkGeDNxbg9x_1_X5W7Fg7gBQi9r9dKVJbA7O--s/viewform?edit_requested=true">¡Anotate!</a>
+							<a class="black-text" href="#">Envianos tus consultas</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="test3" class="col s12">
+			<div class="row">
+				<div class="col s12 m6">
+					<div class="card yellow lighten-2 darken-1">
+						<div class="card-content black-text">
+							<span class="card-title"><b>Programación de Apps 2</b></span>
+							<p>Profesionalizá tus habilidades para hacer Apps móviles para Android.</p>
+							<p>Utilizando Phonegap construiremos aplicaciones que se verán profesionales.</p>
+						</div>
+						<div class="card-action yellow darken-3">
+							<a class="black-text" href="https://docs.google.com/forms/d/1hQnKZkGeDNxbg9x_1_X5W7Fg7gBQi9r9dKVJbA7O--s/viewform?edit_requested=true">¡Anotate!</a>
+							<a class="black-text" href="#">Envianos tus consultas</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="test4" class="col s12">
+			<div class="row">
+				<div class="col s12 m6">
+					<div class="card yellow lighten-2 darken-1">
+						<div class="card-content black-text">
+							<span class="card-title"><b>Repará tu celular</b></span>
+							<p>¿Te acordás de ese celular que está metido en lo profundo de ese cajón? ¿No funciona? ¡Animate a repararlo!</p>
+							<p>Te enseñaremos las nociones básicas para que puedas entender el funcionamiento del celular, sus partes, y cómo repararlos.</p>
+						</div>
+						<div class="card-action yellow darken-3">
+							<a class="black-text" href="https://docs.google.com/forms/d/1hQnKZkGeDNxbg9x_1_X5W7Fg7gBQi9r9dKVJbA7O--s/viewform?edit_requested=true">¡Anotate!</a>
+							<a class="black-text" href="#">Envianos tus consultas</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="test5" class="col s12">
+			<div class="row">
+				<div class="col s12 m6">
+					<div class="card yellow lighten-2 darken-1">
+						<div class="card-content black-text">
+							<span class="card-title"><b>Programación para chicos</b></span>
+							<p>Acercamos a los más chicos al mundo de la programación.</p>
+							<p>¡Actividades y juegos para comenzar a programar de la forma más divertida!</p>
+						</div>
+						<div class="card-action yellow darken-3">
+							<a class="black-text" href="https://docs.google.com/forms/d/1hQnKZkGeDNxbg9x_1_X5W7Fg7gBQi9r9dKVJbA7O--s/viewform?edit_requested=true">¡Anotate!</a>
+							<a class="black-text" href="#">Envianos tus consultas</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			M.AutoInit();
+		</script>
+	</body>
+</html>
