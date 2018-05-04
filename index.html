@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+		
+		<!-- rgb(85, 122, 199) azul ITF -->
+		<!-- rgb(247, 212, 60) amarillo ITF -->
+
+
+		<!--Import Google Icon Font-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!-- Compiled and minified CSS -->
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+		
+		<!-- Compiled and minified JavaScript <--></-->
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    	<style>
+    		@media(max-width: 420px) {
+
+	    		.brand-logo {
+	    			font-size: 1.5rem !important;
+	    		}
+    		}
+    		.carousel {
+    			height: 250px;
+    		}
+    		.collapsible-body {
+    			background-color: #fffde7;
+    		}
+    	</style>
+
+	</head>
+
+	<body>
+		<!-- Barra de navegación -->
+		<div class="navbar-fixed">
+			<nav class="blue accent-3">
+				<div class="nav-wrapper">
+					<a href="#" class="brand-logo">Inspirá tu futuro</a>
+					<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>					
+				</div>
+			</nav>
+		</div>
+		
+		<!-- Menu lateral -->
+		<ul class="sidenav" id="mobile-demo">
+			<li><a class="sidenav-close" href="index.html">¿Quiénes somos?</a></li>
+			<li><a class="sidenav-close" href="alfabetizacion.html">Alfabetización Digital</a></li>
+			<li><a class="sidenav-close" href="apps1.html">Programación de Apps 1</a></li>
+			<li><a class="sidenav-close" href="apps2.html">Programación de Apps 2</a></li>
+			<li><a class="sidenav-close" href="rtc.html">Repará tu Celular</a></li>
+			<li><a class="sidenav-close" href="chicos.html">Programación para chicos</a></li>
+		</ul>
+
+		<div id="test0" class="col s12">
+			<div class="row">
+				<div class="col s12 m12">
+					<div class="carousel">
+						<a class="carousel-item" href="#one!"><img src="img/carr1.jpg"></a>
+						<a class="carousel-item" href="#two!"><img src="img/carr2.jpg"></a>
+						<a class="carousel-item" href="#three!"><img src="img/carr3.jpg"></a>
+						<a class="carousel-item" href="#four!"><img src="img/carr4.jpg"></a>
+						<a class="carousel-item" href="#five!"><img src="img/carr5.jpg"></a>
+					</div>
+					<div class="card yellow lighten-2 darken-1">
+						<div class="card-content black-text">
+							<span class="card-title"><b>Inspirá tu Futuro</b></span>
+							<p>Es una iniciativa del Ministerio de Educación de la Ciudad de Buenos Aires que tiene por objetivo disminuir la brecha digital y brindar herramientas para el uso de las nuevas tecnologías.</p>
+							<p>Inspirá tu Futuro es un espacio abierto a la comunidad, donde los vecinos pueden aprender a programar y reparar celulares guiados por un mentor-programador.</p>
+						</div>
+						<div class="card-action yellow darken-3">
+							<a class="black-text" href="https://docs.google.com/forms/d/1hQnKZkGeDNxbg9x_1_X5W7Fg7gBQi9r9dKVJbA7O--s/viewform?edit_requested=true">¡Anotate!</a>
+							<a onclick="M.toast({html: 'Gracias por tus comentarios!'})" class="black-text" href="#">Envianos tus consultas</a>
+						</div>
+					</div>
+					<div class="card yellow lighten-2 darken-1">
+						<div class="card-content black-text">
+							<span class="card-title"><b>Nuestros horarios:</b></span>
+							<ul class="collapsible">
+								<li>
+									<div class="collapsible-header">
+										<i class="material-icons">desktop_windows</i>
+										Alfabetización digtal
+										<span class="new badge" data-badge-caption="Horarios">2</span>
+									</div>
+									<div class="collapsible-body">
+										<p>Opción 1: Sábados de 10:00 a 12:30.</p>
+										<p>Opción 2: Sábados de 13:00 a 15:30.</p>
+									</div>
+								</li>
+								<li>
+									<div class="collapsible-header">
+										<i class="material-icons">perm_device_information</i>
+										Programación de Apps 1
+										<span class="new badge" data-badge-caption="Horario">1</span>
+									</div>
+									<div class="collapsible-body">
+										<p>Sábados de 10:00 a 12:30.</p>
+									</div>
+								</li>
+								<li>
+									<div class="collapsible-header">
+										<i class="material-icons">phone_android</i>
+										Programación de Apps 2
+										<span class="new badge" data-badge-caption="Horario">1</span>
+									</div>
+									<div class="collapsible-body">										
+										<p>Sábados de 13:00 a 15:30.</p>
+									</div>
+								</li>
+								<li>
+									<div class="collapsible-header">
+										<i class="material-icons">healing</i>
+										Repará tu Celular
+										<span class="new badge" data-badge-caption="Horario">1</span>
+									</div>
+									<div class="collapsible-body">										
+										<p>Martes y Jueves de 17:30 a 19:00.</p>
+									</div>
+								</li>
+								<li>
+									<div class="collapsible-header">
+										<i class="material-icons">insert_emoticon</i>
+										Programación para chicos
+										<span class="new badge" data-badge-caption="Horario">1</span>
+									</div>
+									<div class="collapsible-body">										
+										<p>Lunes y Miércoles de 17:30 a 19:00.</p>
+									</div>
+								</li>
+							</ul>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>
+				
+		<script type="text/javascript">
+			M.AutoInit();
+		</script>
+	</body>
+</html>
